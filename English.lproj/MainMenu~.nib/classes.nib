@@ -1,0 +1,25 @@
+{
+    IBClasses = (
+        {
+            CLASS = Ed2kController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                button = NSButton; 
+                inputValuesView = NSTableView; 
+                message = NSTextField; 
+                outputValuesView = NSTextView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = InputView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {
+            ACTIONS = {calculate = id; }; 
+            CLASS = OutputView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {theController = id; }; 
+            SUPERCLASS = NSTextView; 
+        }
+    ); 
+    IBVersion = 1; 
+}
