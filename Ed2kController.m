@@ -70,9 +70,4 @@
     [message setStringValue:@"Idle"];
 }
 
-/*- (void) addElem(NSString*)aDoc
-*{
-*  [files insertObject:aDoc atIndex:[files count]];
-*  [inputValuesView reloadData];
-} */
 @end

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 38;
+	objectVersion = 39;
 	objects = {
 		080E96DCFE201CFB7F000001 = {
 			fileRef = 29B97318FDCFA39411CA2CEA;
@@ -23,6 +23,7 @@
 			isa = PBXGroup;
 			name = Classes;
 			refType = 4;
+			sourceTree = "<group>";
 		};
 		089C165CFE840E0CC02AAC07 = {
 			children = (
@@ -31,13 +32,16 @@
 			isa = PBXVariantGroup;
 			name = InfoPlist.strings;
 			refType = 4;
+			sourceTree = "<group>";
 		};
 		089C165DFE840E0CC02AAC07 = {
 			fileEncoding = 10;
 			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
 			name = English;
 			path = English.lproj/InfoPlist.strings;
 			refType = 4;
+			sourceTree = "<group>";
 		};
 		089C165EFE840E0CC02AAC07 = {
 			fileRef = 089C165CFE840E0CC02AAC07;
@@ -62,12 +66,16 @@
 			isa = PBXGroup;
 			name = "Linked Frameworks";
 			refType = 4;
+			sourceTree = "<group>";
 		};
 		1058C7A1FEA54F0111CA2CBB = {
+			fallbackIsa = PBXFileReference;
 			isa = PBXFrameworkReference;
+			lastKnownFileType = wrapper.framework;
 			name = Cocoa.framework;
 			path = /System/Library/Frameworks/Cocoa.framework;
 			refType = 0;
+			sourceTree = "<absolute>";
 		};
 		1058C7A2FEA54F0111CA2CBB = {
 			children = (
@@ -77,6 +85,7 @@
 			isa = PBXGroup;
 			name = "Other Frameworks";
 			refType = 4;
+			sourceTree = "<group>";
 		};
 		1058C7A3FEA54F0111CA2CBB = {
 			fileRef = 1058C7A1FEA54F0111CA2CBB;
@@ -95,9 +104,12 @@
 //173
 //174
 		17587328FF379C6511CA2CBB = {
+			explicitFileType = wrapper.application;
+			fallbackIsa = PBXFileReference;
 			isa = PBXApplicationReference;
 			path = "ed2k_hash X.app";
 			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 //170
 //171
@@ -116,6 +128,7 @@
 			isa = PBXGroup;
 			name = Products;
 			refType = 4;
+			sourceTree = "<group>";
 		};
 //190
 //191
@@ -128,10 +141,13 @@
 //293
 //294
 		29B97313FDCFA39411CA2CEA = {
+			buildSettings = {
+			};
 			buildStyles = (
 				4A9504CCFFE6A4B311CA0CBA,
 				4A9504CDFFE6A4B311CA0CBA,
 			);
+			hasScannedForEncodings = 1;
 			isa = PBXProject;
 			mainGroup = 29B97314FDCFA39411CA2CEA;
 			projectDirPath = "";
@@ -151,6 +167,7 @@
 			name = "ed2k_hash X";
 			path = "";
 			refType = 4;
+			sourceTree = "<group>";
 		};
 		29B97315FDCFA39411CA2CEA = {
 			children = (
@@ -160,17 +177,20 @@
 			name = "Other Sources";
 			path = "";
 			refType = 4;
+			sourceTree = "<group>";
 		};
 		29B97316FDCFA39411CA2CEA = {
 			fileEncoding = 30;
 			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
 			path = main.m;
 			refType = 4;
+			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA = {
 			children = (
-				F5D26DD303ABAE7D01EC8E51,
 				F5DA53F10391CDAA01EC8E51,
+				4DF1BFFF06A16D31003033FC,
 				29B97318FDCFA39411CA2CEA,
 				089C165CFE840E0CC02AAC07,
 			);
@@ -178,6 +198,7 @@
 			name = Resources;
 			path = "";
 			refType = 4;
+			sourceTree = "<group>";
 		};
 		29B97318FDCFA39411CA2CEA = {
 			children = (
@@ -187,12 +208,15 @@
 			name = MainMenu.nib;
 			path = "";
 			refType = 4;
+			sourceTree = "<group>";
 		};
 		29B97319FDCFA39411CA2CEA = {
 			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
 			name = English;
 			path = English.lproj/MainMenu.nib;
 			refType = 4;
+			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA = {
 			children = (
@@ -203,18 +227,25 @@
 			name = Frameworks;
 			path = "";
 			refType = 4;
+			sourceTree = "<group>";
 		};
 		29B97324FDCFA39411CA2CEA = {
+			fallbackIsa = PBXFileReference;
 			isa = PBXFrameworkReference;
+			lastKnownFileType = wrapper.framework;
 			name = AppKit.framework;
 			path = /System/Library/Frameworks/AppKit.framework;
 			refType = 0;
+			sourceTree = "<absolute>";
 		};
 		29B97325FDCFA39411CA2CEA = {
+			fallbackIsa = PBXFileReference;
 			isa = PBXFrameworkReference;
+			lastKnownFileType = wrapper.framework;
 			name = Foundation.framework;
 			path = /System/Library/Frameworks/Foundation.framework;
 			refType = 0;
+			sourceTree = "<absolute>";
 		};
 		29B97326FDCFA39411CA2CEA = {
 			buildPhases = (
@@ -267,7 +298,6 @@
 </dict>
 </plist>
 ";
-			shouldUseHeadermap = 1;
 		};
 		29B97327FDCFA39411CA2CEA = {
 			buildActionMask = 2147483647;
@@ -285,7 +315,7 @@
 				080E96DCFE201CFB7F000001,
 				089C165EFE840E0CC02AAC07,
 				F5DA53F20391CDAA01EC8E51,
-				F5D26DD403ABAE7D01EC8E51,
+				4DF1C00006A16D31003033FC,
 			);
 			isa = PBXResourcesBuildPhase;
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,7 +362,12 @@
 			);
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				OPTIMIZATION_CFLAGS = "-O0";
+				ZERO_LINK = YES;
 			};
 			isa = PBXBuildStyle;
 			name = Development;
@@ -342,6 +377,8 @@
 			);
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
 			};
 			isa = PBXBuildStyle;
 			name = Deployment;
@@ -351,20 +388,50 @@
 //4A2
 //4A3
 //4A4
+//4D0
+//4D1
+//4D2
+//4D3
+//4D4
+		4DF1BFFF06A16D31003033FC = {
+			isa = PBXFileReference;
+			lastKnownFileType = "compiled.mach-o.executable";
+			name = ed2k_hash;
+			path = /Users/offense/Desktop/ed2k_hash;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4DF1C00006A16D31003033FC = {
+			fileRef = 4DF1BFFF06A16D31003033FC;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//4D0
+//4D1
+//4D2
+//4D3
+//4D4
 //F50
 //F51
 //F52
 //F53
 //F54
 		F59F6402038C2C1D01EC8E51 = {
+			fileEncoding = 30;
 			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
 			path = Ed2kController.h;
 			refType = 4;
+			sourceTree = "<group>";
 		};
 		F59F6403038C2C1D01EC8E51 = {
+			fileEncoding = 30;
 			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
 			path = Ed2kController.m;
 			refType = 4;
+			sourceTree = "<group>";
 		};
 		F59F6404038C2C1E01EC8E51 = {
 			fileRef = F59F6402038C2C1D01EC8E51;
@@ -379,14 +446,20 @@
 			};
 		};
 		F59F6406038C2C2E01EC8E51 = {
+			fileEncoding = 30;
 			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
 			path = InputView.h;
 			refType = 4;
+			sourceTree = "<group>";
 		};
 		F59F6407038C2C2E01EC8E51 = {
+			fileEncoding = 30;
 			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
 			path = InputView.m;
 			refType = 4;
+			sourceTree = "<group>";
 		};
 		F59F6408038C2C2E01EC8E51 = {
 			fileRef = F59F6406038C2C2E01EC8E51;
@@ -401,14 +474,20 @@
 			};
 		};
 		F59F640A038C2C3B01EC8E51 = {
+			fileEncoding = 30;
 			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
 			path = OutputView.h;
 			refType = 4;
+			sourceTree = "<group>";
 		};
 		F59F640B038C2C3B01EC8E51 = {
+			fileEncoding = 30;
 			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
 			path = OutputView.m;
 			refType = 4;
+			sourceTree = "<group>";
 		};
 		F59F640C038C2C3B01EC8E51 = {
 			fileRef = F59F640A038C2C3B01EC8E51;
@@ -422,22 +501,12 @@
 			settings = {
 			};
 		};
-		F5D26DD303ABAE7D01EC8E51 = {
-			isa = PBXExecutableFileReference;
-			name = ed2k_hash;
-			path = /Users/offense/Desktop/ed2k_hash/ed2k_hash/ed2k_hash;
-			refType = 0;
-		};
-		F5D26DD403ABAE7D01EC8E51 = {
-			fileRef = F5D26DD303ABAE7D01EC8E51;
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
 		F5DA53F10391CDAA01EC8E51 = {
 			isa = PBXFileReference;
+			lastKnownFileType = image.icns;
 			path = ed3.icns;
 			refType = 4;
+			sourceTree = "<group>";
 		};
 		F5DA53F20391CDAA01EC8E51 = {
 			fileRef = F5DA53F10391CDAA01EC8E51;
