@@ -169,7 +169,7 @@
 		};
 		29B97317FDCFA39411CA2CEA = {
 			children = (
-				F5DA53EF0391CD9401EC8E51,
+				F5D26DD303ABAE7D01EC8E51,
 				F5DA53F10391CDAA01EC8E51,
 				29B97318FDCFA39411CA2CEA,
 				089C165CFE840E0CC02AAC07,
@@ -284,8 +284,8 @@
 			files = (
 				080E96DCFE201CFB7F000001,
 				089C165EFE840E0CC02AAC07,
-				F5DA53F00391CD9401EC8E51,
 				F5DA53F20391CDAA01EC8E51,
+				F5D26DD403ABAE7D01EC8E51,
 			);
 			isa = PBXResourcesBuildPhase;
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,13 +422,14 @@
 			settings = {
 			};
 		};
-		F5DA53EF0391CD9401EC8E51 = {
+		F5D26DD303ABAE7D01EC8E51 = {
 			isa = PBXExecutableFileReference;
-			path = ed2k_hash;
-			refType = 4;
+			name = ed2k_hash;
+			path = /Users/offense/Desktop/ed2k_hash/ed2k_hash/ed2k_hash;
+			refType = 0;
 		};
-		F5DA53F00391CD9401EC8E51 = {
-			fileRef = F5DA53EF0391CD9401EC8E51;
+		F5D26DD403ABAE7D01EC8E51 = {
+			fileRef = F5D26DD303ABAE7D01EC8E51;
 			isa = PBXBuildFile;
 			settings = {
 			};
